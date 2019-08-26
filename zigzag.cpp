@@ -1,3 +1,13 @@
+//sort(A.begin(),A.end());
+int i=0;
+int n=A.size();
+while(i<n-1){
+swap(A[i],A[i+1]);
+i=i+2;
+}
+return A;
+//
+
 //check for even and odd places
 
 #include<bits/stdc++.h>
